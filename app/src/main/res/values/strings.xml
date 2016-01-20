@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">College Assistant</string>
+    <string name="parse_application_id">nUo7SwV05jj8xs3AKNQRzoICpZwYw3nuBe9vj9jh</string>
+    <string name="parse_client_id">5wTJRoLZYsYkMm4wUL4vsNclSgBYd5qW7koICMdG</string>
+    <string name="facebook_app_id">583724968459038</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_log_in">LogInActivity</string>
+    <string name="action_settings">Settings</string>
+</resources>
