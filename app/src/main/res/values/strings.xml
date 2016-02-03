@@ -1,9 +1,30 @@
 <resources>
+    <!--App and activities names-->
     <string name="app_name">College Assistant</string>
-    <string name="parse_application_id">nUo7SwV05jj8xs3AKNQRzoICpZwYw3nuBe9vj9jh</string>
-    <string name="parse_client_id">5wTJRoLZYsYkMm4wUL4vsNclSgBYd5qW7koICMdG</string>
-    <string name="facebook_app_id">583724968459038</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="title_activity_log_in">LogInActivity</string>
+    <string name="title_activity_main">Home</string>
+    <string name="title_activity_log_in">Log In</string>
+    <string name="title_activity_sign_up">Sign Up</string>
     <string name="action_settings">Settings</string>
+
+    <!--Hints for fields-->
+    <!--Sign up and Log in-->
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="user_name_hint">Username or Email</string>
+    <string name="user_sign_up_hint">Username</string>
+    <string name="email_sign_up_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="conf_password_hint">Confirm Password</string>
+
+    <!--ID Strings-->
+    <string name="parse_app_id" translatable="false">nUo7SwV05jj8xs3AKNQRzoICpZwYw3nuBe9vj9jh</string>
+    <string name="parse_client_key" translatable="false">5wTJRoLZYsYkMm4wUL4vsNclSgBYd5qW7koICMdG</string>
+    <string name="facebook_app_id" translatable="false">583724968459038</string>
+
+    <!--Messages-->
+    <string name="signing_in">Signing in, please wait</string>
+    <string name="logging_in">Logging in, please wait</string>
+    <string name="please_wait">Please wait</string>
+    <string name="error">There has been an error, please try again</string>
+    <string name="title_activity_school_schedule">SchoolScheduleActivity</string>
 </resources>

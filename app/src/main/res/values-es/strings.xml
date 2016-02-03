@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">College Assistant</string>
+    <string name="password_hint" translatable="false">Contraseña</string>
+    <string name="user_name_hint">Nombre de usuario o Email</string>
+    <string name="log_in">Ingresar</string>
+    <string name="sign_up">Registrar</string>
+    <string name="conf_password_hint">Confirmar Contraseña</string>
+    <string name="title_activity_log_in">Ingresar</string>
+    <string name="title_activity_main">Inicio</string>
+    <string name="title_activity_sign_up">Ingresar</string>
+    <string name="user_sign_up_hint">Nombre de Usuario</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="logging_in">Ingresando, por favor espere</string>
+    <string name="signing_in">Registrando, por favor espere</string>
+    <string name="please_wait">Por favor, espere</string>
+    <string name="error">Ha ocurrido un error, por favor vuelva a intentar</string>
+</resources>

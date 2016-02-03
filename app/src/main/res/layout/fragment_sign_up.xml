@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lopez.collegeassistant.SignUpActivityFragment"
+    tools:showIn="@layout/activity_sign_up">
+
+
+    <EditText
+        android:id="@+id/txtUserSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/user_sign_up_hint"
+        android:textColorHint="@color/colorSecondaryText" />
+
+    <EditText
+        android:id="@+id/txtEmailSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="@string/email_sign_up_hint"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colorSecondaryText" />
+
+    <EditText
+        android:id="@+id/txtPasswordSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorSecondaryText" />
+
+    <EditText
+        android:id="@+id/txtConfPassSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="@string/conf_password_hint"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorSecondaryText" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_gravity="end"
+        android:background="@color/colorAccent"
+        android:elevation="2dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/sign_up"
+        android:textColor="#fff" />
+</LinearLayout>

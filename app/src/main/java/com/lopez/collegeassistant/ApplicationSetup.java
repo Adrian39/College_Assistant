@@ -15,8 +15,8 @@ public class ApplicationSetup extends Application {
     @Override
     public void onCreate(){
         super.onCreate();
-
-        Parse.initialize(this, getString(R.string.parse_application_id), getString(R.string.parse_client_id));
+        Parse.enableLocalDatastore(this);
+        Parse.initialize(this, getString(R.string.parse_app_id), getString(R.string.parse_client_key));
         ParseInstallation.getCurrentInstallation().saveInBackground();
         ParseFacebookUtils.initialize(this);
 
